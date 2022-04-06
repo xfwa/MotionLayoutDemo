@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MotionLayoutDemo">
         <activity
-            android:name=".example.ToolBarCoverActivity"
+            android:name=".example.MultipleAnimationActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,9 +19,13 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".example.ToolBarCoverActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
             android:name=".example.ToolBarActivity"
             android:exported="true" />
-
         <activity
             android:name=".SwipeActivity"
             android:exported="true" />

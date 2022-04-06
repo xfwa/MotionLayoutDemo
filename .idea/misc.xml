@@ -4,12 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/drawable/ic_back_button.xml" value="0.3425" />
+        <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/drawable/ic_done.xml" value="0.278" />
+        <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/drawable/ic_share.xml" value="0.278" />
         <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/layout/activity_main.xml" value="0.3536458333333333" />
+        <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/layout/activity_multible_animation.xml" value="0.24895833333333334" />
+        <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/layout/activity_multible_animatione_end.xml" value="0.22" />
         <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/layout/activity_swipe.xml" value="0.17198581560283688" />
         <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/layout/activity_tool_bar.xml" value="0.2" />
         <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/layout/activity_tool_bar_cover.xml" value="0.26766304347826086" />
         <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/layout/activity_tool_bar_cover_end.xml" value="0.25" />
         <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/layout/activity_tool_bar_end.xml" value="0.25" />
+        <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/layout/custom_share_layout.xml" value="0.26766304347826086" />
         <entry key="..\:/Android Project/MotionLayoutDemo/app/src/main/res/layout/item_tool_bar.xml" value="0.26766304347826086" />
       </map>
     </option>
