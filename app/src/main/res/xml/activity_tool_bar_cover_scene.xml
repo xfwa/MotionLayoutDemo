@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@layout/activity_tool_bar_cover_end"
+        motion:constraintSetStart="@layout/activity_tool_bar_cover"
+        motion:duration="500">
+
+        <OnSwipe
+            motion:dragDirection="dragUp"
+            motion:touchAnchorId="@id/recyclerView"
+            motion:touchAnchorSide="top" />
+
+        <KeyFrameSet>
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="70"
+                motion:motionTarget="@id/title" />
+
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="80"
+                motion:motionTarget="@id/toolbarIconContainer" />
+
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="70"
+                motion:motionTarget="@id/backButton" />
+
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="70"
+                motion:motionTarget="@id/backButton2" />
+
+
+            <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="90"
+                motion:motionTarget="@id/backButton2" />
+
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="70"
+                motion:motionTarget="@id/toolbarTitle" />
+
+            <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="90"
+                motion:motionTarget="@id/toolbarTitle" />
+        </KeyFrameSet>
+    </Transition>
+
+</MotionScene>
